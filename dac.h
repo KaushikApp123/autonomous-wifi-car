@@ -2,14 +2,11 @@
  * Kaushik A
  * ECE 306 Project 10
  */
-// preprocessor setup for the project
 #define DAC_Begin (2725) // 2v
 //#define DAC_Limit (850) // 6.08v
 //#define DAC_Adjust (875) // 6.00v
 //• Alternates
-// preprocessor setup for the project
 #define DAC_Limit (1500) // 4.02v
-// preprocessor setup for the project
 #define DAC_Adjust (1505) // 4.00v
 //#define DAC_Limit (1400) // 4.29v
 //#define DAC_Adjust (1405) // 4.32v
@@ -22,5 +19,4 @@
 //#define DAC_Limit (715) // 6.5v
 //#define DAC_Adjust (712) // 6.5v
 
-// call a helper function
 void Init_DAC(void);

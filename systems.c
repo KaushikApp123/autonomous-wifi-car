@@ -12,14 +12,10 @@
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
-// include file needed by this file
 #include  "functions.h"
-// include file needed by this file
 #include  "msp430.h"
-// include file needed by this file
 #include  "macros.h"
 
-// call a helper function
 void enable_interrupts(void);
 
 //------------------------------------------------------------------------------
@@ -36,12 +32,9 @@ void enable_interrupts(void);
 //}
 
 //inline void enable_interrupts(void) __attribute__((always_inline));
-// function used by the car
 void enable_interrupts(void){
-  // code line for the car logic
   __bis_SR_register(GIE);     // enable interrupts
 //  asm volatile ("eint \n");
-// block marker
 }
 
 //inline void disable_interrupts(void) __attribute__((always_inline));
